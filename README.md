@@ -1,9 +1,6 @@
 # KNU_Graduation_Project
 
 ##### Welcome to KNU project for graduation (Turtlebot serving robot)
-# 
-# 
-# 
 ## INSTALLATION
 
 #### Ubuntu Linux (Recommended)
