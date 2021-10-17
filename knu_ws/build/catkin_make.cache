@@ -1,0 +1,2 @@
+knu_project
+-DCATKIN_DEVEL_PREFIX=/home/hyun/knu_ws/devel -DCMAKE_INSTALL_PREFIX=/home/hyun/knu_ws/install -G Unix Makefiles
