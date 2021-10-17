@@ -16,7 +16,7 @@ We used ROBOTIS-Turtlebot3 packages. (https://emanual.robotis.com/docs/en/platfo
 
 Open Terminal
 ``` sh
-$ git clone https://github.com/hyunhoha/KNU_Graduation_Project.git
+$ git clone https://github.com/hyunhoha/KNU_Graduation_Project.git -> knu_ws/src/knu_project만 복사해서 workspace/src 아래에 붙여넣기하시면 됩니다.
 $ cd /path/to/your/catkin_workspace
 $ catkin_make
 $ source devel/setup.bash (Optional)
