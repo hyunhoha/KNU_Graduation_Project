@@ -16,7 +16,6 @@ We used ROBOTIS-Turtlebot3 packages. (https://emanual.robotis.com/docs/en/platfo
 
 Open Terminal
 ``` sh
-$ cd /path/to/your/catkin_workspace/src
 $ git clone https://github.com/hyunhoha/KNU_Graduation_Project.git
 $ cd /path/to/your/catkin_workspace
 $ catkin_make
