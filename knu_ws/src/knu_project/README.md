@@ -24,3 +24,18 @@ roslaunch로 다같이 묶은 것입니다.
 world파일에서 각 Table의 좌표를 <Pose> 태그에서 확인할 수 있습니다.
 .py 파일은 /src 폴더에 만들고, chmod +x로 실행권한을 주면 catkin_make 없이도 알아서 인식합니다.
 
+## 새로운 맵을 만들고 테스트해보기
+새로 맵을 만들게 되면, 이를 Gazebo로 열고, turtlebot3_navigation node를 통해 map을 작성해야 합니다.
+
+```
+roscd turtlebot3_gazebo
+cd launch
+```
+그리고, 
+
+- 새로운 launch file을 만들고, arg에 새로 만든 맵 파일의 경로를 입력해줍니다.
+- roslaunch turtlebot3_gazebo {새로 만든 launch file}로 실행합니다.
+- roslaunch turtlebot3_slam turtlebot3_slam.launch
+- roslaunch turtlebot3_teleop ~~~
+ 
+하여 새로 맵을 만들고 저장해주고, knu_project 폴더 내의 launch파일을 새로 만들거나 수정하면 됩니다.
