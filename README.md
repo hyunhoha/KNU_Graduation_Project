@@ -78,7 +78,7 @@ $ git switch {branch name} // move to other branch
 Branch -> Balancing / Projection / navigation / other project ..
 
 
-#### 새로운 맵을 만들고 테스트해보기
+## 새로운 맵을 만들고 테스트해보기
 새로 맵을 만들게 되면, 이를 Gazebo로 열고, turtlebot3_navigation node를 통해 map을 작성해야 합니다.
 
 ```
