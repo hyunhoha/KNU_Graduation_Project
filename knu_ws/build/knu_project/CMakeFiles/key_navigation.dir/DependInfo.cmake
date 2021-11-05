@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/hyun/knu_ws/src/knu_project/src/my_setting_nav_goal.cpp" "knu_project/CMakeFiles/key_navigation.dir/src/my_setting_nav_goal.cpp.o" "gcc" "knu_project/CMakeFiles/key_navigation.dir/src/my_setting_nav_goal.cpp.o.d"
+  "/home/hyun/knu_ws/src/knu_project/src/my_setting_nav_goal2.cpp" "knu_project/CMakeFiles/key_navigation.dir/src/my_setting_nav_goal2.cpp.o" "gcc" "knu_project/CMakeFiles/key_navigation.dir/src/my_setting_nav_goal2.cpp.o.d"
   )
 
 # Targets to which this target links.

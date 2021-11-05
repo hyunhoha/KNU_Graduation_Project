@@ -69,28 +69,28 @@ include knu_project/CMakeFiles/key_navigation.dir/progress.make
 # Include the compile flags for this target's objects.
 include knu_project/CMakeFiles/key_navigation.dir/flags.make
 
-knu_project/CMakeFiles/key_navigation.dir/src/my_setting_nav_goal.cpp.o: knu_project/CMakeFiles/key_navigation.dir/flags.make
-knu_project/CMakeFiles/key_navigation.dir/src/my_setting_nav_goal.cpp.o: /home/hyun/knu_ws/src/knu_project/src/my_setting_nav_goal.cpp
-knu_project/CMakeFiles/key_navigation.dir/src/my_setting_nav_goal.cpp.o: knu_project/CMakeFiles/key_navigation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hyun/knu_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object knu_project/CMakeFiles/key_navigation.dir/src/my_setting_nav_goal.cpp.o"
-	cd /home/hyun/knu_ws/build/knu_project && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT knu_project/CMakeFiles/key_navigation.dir/src/my_setting_nav_goal.cpp.o -MF CMakeFiles/key_navigation.dir/src/my_setting_nav_goal.cpp.o.d -o CMakeFiles/key_navigation.dir/src/my_setting_nav_goal.cpp.o -c /home/hyun/knu_ws/src/knu_project/src/my_setting_nav_goal.cpp
+knu_project/CMakeFiles/key_navigation.dir/src/my_setting_nav_goal2.cpp.o: knu_project/CMakeFiles/key_navigation.dir/flags.make
+knu_project/CMakeFiles/key_navigation.dir/src/my_setting_nav_goal2.cpp.o: /home/hyun/knu_ws/src/knu_project/src/my_setting_nav_goal2.cpp
+knu_project/CMakeFiles/key_navigation.dir/src/my_setting_nav_goal2.cpp.o: knu_project/CMakeFiles/key_navigation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hyun/knu_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object knu_project/CMakeFiles/key_navigation.dir/src/my_setting_nav_goal2.cpp.o"
+	cd /home/hyun/knu_ws/build/knu_project && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT knu_project/CMakeFiles/key_navigation.dir/src/my_setting_nav_goal2.cpp.o -MF CMakeFiles/key_navigation.dir/src/my_setting_nav_goal2.cpp.o.d -o CMakeFiles/key_navigation.dir/src/my_setting_nav_goal2.cpp.o -c /home/hyun/knu_ws/src/knu_project/src/my_setting_nav_goal2.cpp
 
-knu_project/CMakeFiles/key_navigation.dir/src/my_setting_nav_goal.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/key_navigation.dir/src/my_setting_nav_goal.cpp.i"
-	cd /home/hyun/knu_ws/build/knu_project && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hyun/knu_ws/src/knu_project/src/my_setting_nav_goal.cpp > CMakeFiles/key_navigation.dir/src/my_setting_nav_goal.cpp.i
+knu_project/CMakeFiles/key_navigation.dir/src/my_setting_nav_goal2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/key_navigation.dir/src/my_setting_nav_goal2.cpp.i"
+	cd /home/hyun/knu_ws/build/knu_project && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hyun/knu_ws/src/knu_project/src/my_setting_nav_goal2.cpp > CMakeFiles/key_navigation.dir/src/my_setting_nav_goal2.cpp.i
 
-knu_project/CMakeFiles/key_navigation.dir/src/my_setting_nav_goal.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/key_navigation.dir/src/my_setting_nav_goal.cpp.s"
-	cd /home/hyun/knu_ws/build/knu_project && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hyun/knu_ws/src/knu_project/src/my_setting_nav_goal.cpp -o CMakeFiles/key_navigation.dir/src/my_setting_nav_goal.cpp.s
+knu_project/CMakeFiles/key_navigation.dir/src/my_setting_nav_goal2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/key_navigation.dir/src/my_setting_nav_goal2.cpp.s"
+	cd /home/hyun/knu_ws/build/knu_project && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hyun/knu_ws/src/knu_project/src/my_setting_nav_goal2.cpp -o CMakeFiles/key_navigation.dir/src/my_setting_nav_goal2.cpp.s
 
 # Object files for target key_navigation
 key_navigation_OBJECTS = \
-"CMakeFiles/key_navigation.dir/src/my_setting_nav_goal.cpp.o"
+"CMakeFiles/key_navigation.dir/src/my_setting_nav_goal2.cpp.o"
 
 # External object files for target key_navigation
 key_navigation_EXTERNAL_OBJECTS =
 
-/home/hyun/knu_ws/devel/lib/knu_project/key_navigation: knu_project/CMakeFiles/key_navigation.dir/src/my_setting_nav_goal.cpp.o
+/home/hyun/knu_ws/devel/lib/knu_project/key_navigation: knu_project/CMakeFiles/key_navigation.dir/src/my_setting_nav_goal2.cpp.o
 /home/hyun/knu_ws/devel/lib/knu_project/key_navigation: knu_project/CMakeFiles/key_navigation.dir/build.make
 /home/hyun/knu_ws/devel/lib/knu_project/key_navigation: /opt/ros/noetic/lib/libactionlib.so
 /home/hyun/knu_ws/devel/lib/knu_project/key_navigation: /opt/ros/noetic/lib/libroscpp.so

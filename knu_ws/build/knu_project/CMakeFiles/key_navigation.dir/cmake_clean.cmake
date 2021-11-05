@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "/home/hyun/knu_ws/devel/lib/knu_project/key_navigation"
   "/home/hyun/knu_ws/devel/lib/knu_project/key_navigation.pdb"
-  "CMakeFiles/key_navigation.dir/src/my_setting_nav_goal.cpp.o"
-  "CMakeFiles/key_navigation.dir/src/my_setting_nav_goal.cpp.o.d"
+  "CMakeFiles/key_navigation.dir/src/my_setting_nav_goal2.cpp.o"
+  "CMakeFiles/key_navigation.dir/src/my_setting_nav_goal2.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

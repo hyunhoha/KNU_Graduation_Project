@@ -10,7 +10,7 @@ from nav_msgs.msg import Odometry
 DIRECTION_PATHS = []
 for i in range(10):
     if i==0:
-	DIRECTION_PATHS.append("/home/ubuntu/catkin_ws/src/cv_test/images/0.png")
+        DIRECTION_PATHS.append("/home/ubuntu/catkin_ws/src/cv_test/images/0.png")
     else:
         strs = "/home/ubuntu/catkin_ws/src/cv_test/images/" + str(i * 10) + ".png"
         strs_ ="/home/ubuntu/catkin_ws/src/cv_test/images/" + str(i * 10) + "_.png"

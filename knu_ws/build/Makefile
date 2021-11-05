@@ -289,6 +289,19 @@ gtest/fast:
 .PHONY : gtest/fast
 
 #=============================================================================
+# Target rules for targets named key_navigation_test
+
+# Build rule for target.
+key_navigation_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 key_navigation_test
+.PHONY : key_navigation_test
+
+# fast build rule for target.
+key_navigation_test/fast:
+	$(MAKE) $(MAKESILENT) -f knu_project/CMakeFiles/key_navigation_test.dir/build.make knu_project/CMakeFiles/key_navigation_test.dir/build
+.PHONY : key_navigation_test/fast
+
+#=============================================================================
 # Target rules for targets named key_navigation
 
 # Build rule for target.
@@ -884,6 +897,7 @@ help:
 	@echo "... gtest"
 	@echo "... gtest_main"
 	@echo "... key_navigation"
+	@echo "... key_navigation_test"
 .PHONY : help
 
 

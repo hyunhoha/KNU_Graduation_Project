@@ -39,6 +39,7 @@
 /home/hyun/knu_ws/build/knu_project/CMakeFiles/install.dir
 /home/hyun/knu_ws/build/knu_project/CMakeFiles/list_install_components.dir
 /home/hyun/knu_ws/build/knu_project/CMakeFiles/edit_cache.dir
+/home/hyun/knu_ws/build/knu_project/CMakeFiles/key_navigation_test.dir
 /home/hyun/knu_ws/build/knu_project/CMakeFiles/key_navigation.dir
 /home/hyun/knu_ws/build/knu_project/CMakeFiles/move_base_msgs_generate_messages_nodejs.dir
 /home/hyun/knu_ws/build/knu_project/CMakeFiles/move_base_msgs_generate_messages_lisp.dir

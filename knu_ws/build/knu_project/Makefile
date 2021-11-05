@@ -172,6 +172,20 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+knu_project/CMakeFiles/key_navigation_test.dir/rule:
+	cd /home/hyun/knu_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 knu_project/CMakeFiles/key_navigation_test.dir/rule
+.PHONY : knu_project/CMakeFiles/key_navigation_test.dir/rule
+
+# Convenience name for target.
+key_navigation_test: knu_project/CMakeFiles/key_navigation_test.dir/rule
+.PHONY : key_navigation_test
+
+# fast build rule for target.
+key_navigation_test/fast:
+	cd /home/hyun/knu_ws/build && $(MAKE) $(MAKESILENT) -f knu_project/CMakeFiles/key_navigation_test.dir/build.make knu_project/CMakeFiles/key_navigation_test.dir/build
+.PHONY : key_navigation_test/fast
+
+# Convenience name for target.
 knu_project/CMakeFiles/key_navigation.dir/rule:
 	cd /home/hyun/knu_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 knu_project/CMakeFiles/key_navigation.dir/rule
 .PHONY : knu_project/CMakeFiles/key_navigation.dir/rule
@@ -745,29 +759,53 @@ rosgraph_msgs_generate_messages_nodejs/fast:
 	cd /home/hyun/knu_ws/build && $(MAKE) $(MAKESILENT) -f knu_project/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make knu_project/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
-src/my_setting_nav_goal.o: src/my_setting_nav_goal.cpp.o
-.PHONY : src/my_setting_nav_goal.o
+src/goal_test.o: src/goal_test.cpp.o
+.PHONY : src/goal_test.o
 
 # target to build an object file
-src/my_setting_nav_goal.cpp.o:
-	cd /home/hyun/knu_ws/build && $(MAKE) $(MAKESILENT) -f knu_project/CMakeFiles/key_navigation.dir/build.make knu_project/CMakeFiles/key_navigation.dir/src/my_setting_nav_goal.cpp.o
-.PHONY : src/my_setting_nav_goal.cpp.o
+src/goal_test.cpp.o:
+	cd /home/hyun/knu_ws/build && $(MAKE) $(MAKESILENT) -f knu_project/CMakeFiles/key_navigation_test.dir/build.make knu_project/CMakeFiles/key_navigation_test.dir/src/goal_test.cpp.o
+.PHONY : src/goal_test.cpp.o
 
-src/my_setting_nav_goal.i: src/my_setting_nav_goal.cpp.i
-.PHONY : src/my_setting_nav_goal.i
+src/goal_test.i: src/goal_test.cpp.i
+.PHONY : src/goal_test.i
 
 # target to preprocess a source file
-src/my_setting_nav_goal.cpp.i:
-	cd /home/hyun/knu_ws/build && $(MAKE) $(MAKESILENT) -f knu_project/CMakeFiles/key_navigation.dir/build.make knu_project/CMakeFiles/key_navigation.dir/src/my_setting_nav_goal.cpp.i
-.PHONY : src/my_setting_nav_goal.cpp.i
+src/goal_test.cpp.i:
+	cd /home/hyun/knu_ws/build && $(MAKE) $(MAKESILENT) -f knu_project/CMakeFiles/key_navigation_test.dir/build.make knu_project/CMakeFiles/key_navigation_test.dir/src/goal_test.cpp.i
+.PHONY : src/goal_test.cpp.i
 
-src/my_setting_nav_goal.s: src/my_setting_nav_goal.cpp.s
-.PHONY : src/my_setting_nav_goal.s
+src/goal_test.s: src/goal_test.cpp.s
+.PHONY : src/goal_test.s
 
 # target to generate assembly for a file
-src/my_setting_nav_goal.cpp.s:
-	cd /home/hyun/knu_ws/build && $(MAKE) $(MAKESILENT) -f knu_project/CMakeFiles/key_navigation.dir/build.make knu_project/CMakeFiles/key_navigation.dir/src/my_setting_nav_goal.cpp.s
-.PHONY : src/my_setting_nav_goal.cpp.s
+src/goal_test.cpp.s:
+	cd /home/hyun/knu_ws/build && $(MAKE) $(MAKESILENT) -f knu_project/CMakeFiles/key_navigation_test.dir/build.make knu_project/CMakeFiles/key_navigation_test.dir/src/goal_test.cpp.s
+.PHONY : src/goal_test.cpp.s
+
+src/my_setting_nav_goal2.o: src/my_setting_nav_goal2.cpp.o
+.PHONY : src/my_setting_nav_goal2.o
+
+# target to build an object file
+src/my_setting_nav_goal2.cpp.o:
+	cd /home/hyun/knu_ws/build && $(MAKE) $(MAKESILENT) -f knu_project/CMakeFiles/key_navigation.dir/build.make knu_project/CMakeFiles/key_navigation.dir/src/my_setting_nav_goal2.cpp.o
+.PHONY : src/my_setting_nav_goal2.cpp.o
+
+src/my_setting_nav_goal2.i: src/my_setting_nav_goal2.cpp.i
+.PHONY : src/my_setting_nav_goal2.i
+
+# target to preprocess a source file
+src/my_setting_nav_goal2.cpp.i:
+	cd /home/hyun/knu_ws/build && $(MAKE) $(MAKESILENT) -f knu_project/CMakeFiles/key_navigation.dir/build.make knu_project/CMakeFiles/key_navigation.dir/src/my_setting_nav_goal2.cpp.i
+.PHONY : src/my_setting_nav_goal2.cpp.i
+
+src/my_setting_nav_goal2.s: src/my_setting_nav_goal2.cpp.s
+.PHONY : src/my_setting_nav_goal2.s
+
+# target to generate assembly for a file
+src/my_setting_nav_goal2.cpp.s:
+	cd /home/hyun/knu_ws/build && $(MAKE) $(MAKESILENT) -f knu_project/CMakeFiles/key_navigation.dir/build.make knu_project/CMakeFiles/key_navigation.dir/src/my_setting_nav_goal2.cpp.s
+.PHONY : src/my_setting_nav_goal2.cpp.s
 
 # Help Target
 help:
@@ -823,9 +861,13 @@ help:
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... key_navigation"
-	@echo "... src/my_setting_nav_goal.o"
-	@echo "... src/my_setting_nav_goal.i"
-	@echo "... src/my_setting_nav_goal.s"
+	@echo "... key_navigation_test"
+	@echo "... src/goal_test.o"
+	@echo "... src/goal_test.i"
+	@echo "... src/goal_test.s"
+	@echo "... src/my_setting_nav_goal2.o"
+	@echo "... src/my_setting_nav_goal2.i"
+	@echo "... src/my_setting_nav_goal2.s"
 .PHONY : help
 
 

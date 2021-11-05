@@ -4,9 +4,6 @@
   <arg name="y_pos" default="0.0"/>
   <arg name="z_pos" default="0.0"/>
 
-  <!-- <arg name="map_file" default="$(find knu_project)/worlds/cafe3.world"/> -->
-  <!-- <arg name="open_rviz" default="true"/> -->
-
   <include file="$(find gazebo_ros)/launch/empty_world.launch"> 
     <arg name="world_name" value="$(find knu_project)/worlds/cafe3.world"/>
     <arg name="paused" value="false"/>
@@ -27,6 +24,8 @@
     <arg name="move_forward_only" default="false"/>
   </include>
 
-  <node name="my_setting_nav_goal" pkg="knu_project" type="key_navigation" respawn="true" />
+  <node pkg="knu_project" name="direction" type="direction.py" />
+  <node name="my_setting_nav_goal" pkg="knu_project" type="key_navigation" respawn="true" output="screen" />
+
 
 </launch>
